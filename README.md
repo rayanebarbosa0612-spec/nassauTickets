@@ -4,7 +4,9 @@
 Organizar compromissos de estudantes e pessoas que conciliam estudos, trabalho e casa.
 
 ## Integrantes e contribuição
-Rayane, Thiago e Laís. Cada integrante deve registrar aqui sua contribuição real após revisar e testar o código; não foram inventadas contribuições ou commits.
+- **Laís Melissa:** implementação da AV2 com auxílio de IA, testes das funcionalidades, versionamento e publicação no GitHub.
+- **Rayane Barbosa:** immplementação da Av1 com auxilio de IA, testes das funcionalidades, versionamento e publicação no GitHub.
+- **Thiago:** Responsavel pela Documentação e testes das funcionalidades.
 
 ## Execução
 Node.js 20+ (preferencialmente 22). Execute `npm install` e `npm run dev`. Abra o endereço indicado pelo Vite. `npm run build` gera a versão de produção. O npm gera package-lock.json na instalação: inclua esse arquivo no commit. Não envie node_modules ou .env.
@@ -44,3 +46,21 @@ ChatGPT auxiliou na revisão da AV1, migração da estrutura, geração da integ
 
 ## Entrega
 Usar o mesmo repositório da AV1, preservar histórico e tag entrega-av1. Cada integrante deve realizar commits reais das suas contribuições. Após testes, marcar o commit final com `git tag entrega-av2` e `git push origin entrega-av2`. Enviar link e hash do commit no Teams.
+## Testes e validação
+
+O projeto foi executado e testado localmente utilizando Node.js e Vite.
+
+Funcionalidades verificadas:
+
+- Login e autenticação de usuários.
+- Integração com a API DummyJSON.
+- Listagem de tarefas.
+- Cadastro, edição e exclusão de tarefas.
+- Marcação de tarefas como concluídas.
+- Adição e remoção de favoritos.
+- Filtros de tarefas.
+- Persistência local dos dados.
+
+A instalação das dependências e a geração do build de produção foram realizadas com sucesso.
+
+Os testes manuais realizados apresentaram resultados satisfatórios.
